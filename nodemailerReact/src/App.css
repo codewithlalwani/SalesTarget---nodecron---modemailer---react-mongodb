@@ -1,0 +1,42 @@
+/* designed and coded with luxury and love by yash lalwani */
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+input,
+textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 0.5rem 0;
+  width: 100%;
+  font-size: 1rem;
+  color: #111;
+  outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #999;
+}
+
+button {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
